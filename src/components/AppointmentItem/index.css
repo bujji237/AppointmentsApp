@@ -1,0 +1,56 @@
+.appointment-list-item {
+  list-style-type: none;
+  margin-top: 20px;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+}
+.appointment {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.appointment-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #171f46;
+}
+.appointment-date {
+  color: #9897f0;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 10px;
+}
+.fav-star-icon {
+  width: 20px;
+  height: 20px;
+}
+.star-icon-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-list-item {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .appointment {
+    padding: 20px;
+  }
+  .appointment-name {
+    font-size: 30px;
+  }
+  .appointment-date {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .fav-star-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

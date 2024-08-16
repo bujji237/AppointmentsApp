@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 20px;
+}
+.box-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #171f46;
+  margin-top: 20px;
+}
+.inputfield-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+label {
+  color: #171f46;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.input-field {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 10px;
+  outline: none;
+  border: 1px solid #171f46;
+  padding-left: 10px;
+}
+.submit-btn {
+  width: 70px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 20px;
+}
+.appointments-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.appointments-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+}
+.appointments-button {
+  border: 1px solid #171f46;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  color: #171f46;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.appointment-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 40px;
+  }
+  .box-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .heading {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .inputfield-container {
+    margin-top: 30px;
+  }
+  label {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .input-field {
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  .submit-btn {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .appointments-header {
+    margin-top: 30px;
+  }
+  .appointments-heading {
+    font-size: 35px;
+  }
+  .appointments-button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .appointment-image {
+    display: block;
+    width: 50%;
+  }
+  .form-and-image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-container {
+    width: 50%;
+  }
+  .appointments-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
